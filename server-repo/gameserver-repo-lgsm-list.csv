@@ -1,0 +1,38 @@
+gamename,appid,servername,login
+7 Days to Die,294420,sdtdserver,user
+ARMA 3,233780,arma3server,user
+Blade Symphony (Game Purchase),228780,bsserver,user
+Counter Strike,90,csserver,anonymous
+Counter Strike: Condition Zero,90 +app_set_config 90 mod czero,csczserver,anonymous
+Counter Strike: Global Offensive,740,csgoserver,anonymous
+Counter Strike: Source,232330,cssserver,anonymous
+Day of Defeat,90 -beta beta +app_set_config 90 mod dod,dodserver,anonymous
+Day of Defeat: Source,232290,dodsserver,anonymous
+Double Action: Boogaloo,317800,dabserver,anonymous
+Fistful of Frags,295230,fofserver,anonymous
+Garys's Mod,4020,gmodserver,anonymous
+Half Life: Deathmatch,90,hldmserver,anonymous
+Half-Life Deathmatch: Source,255470,hldmsserver,anonymous
+Half Life 2: Deathmatch,232370,hl2dmserver,anonymous
+Deathmatch Classic,90 +app_set_config 90 mod dmc,dmcserver,anonymous
+Opposing Force,90 +app_set_config 90 mod gearbox,opforserver,anonymous
+Insurgency,237410,insserver,anonymous
+Just Cause 2,261140,jc2server,anonymous
+Killing Floor,215360,kfserver,user
+Left 4 Dead,222840,l4dserver,anonymous
+Left 4 Dead 2,222860,l4d2server,anonymous
+Mumble,nonsteam,mumbleserver,
+Natural Selection 2,4940,ns2server,anonymous
+No More Room in Hell,317670,nmrihserver,anonymous
+NS2: Combat,313900,ns2cserver,anonymous
+Project Zomboid (Game Purchase),108600,pzserver,user
+Red Orchestra: Ostfront 41-45,223250,roserver,user
+Richochet,90 +app_set_config 90 mod ricochet,ricserver,anonymous
+Running with Rifles (Game Purchase),270150,rwrserver,user
+Serious Sam 3: BFE,41080,ss3server,steamuser
+Starbound  (Game Purchase),211820,sbserver,steamuser
+Teamspeak 3,nonsteam,ts3server,
+Team Fortress 2,232250,tf2server,anonymous
+Team Fortress Classic,90 +app_set_config 90 mod tfc,tfcserver,anonymous
+Unreal 2004,nonsteam,ut2k4server,
+Unreal 99,nonsteam,ut99server,
