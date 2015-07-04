@@ -2,7 +2,7 @@
 # Game Server Repo
 # Author: Daniel Gibbs
 # Website: http://gameservermanagers.com
-# Version: 090515
+# Version: 040715
 # Development use only!
 # Description: Creates and updates a repository of all game server content used by LGSM.
 
@@ -33,7 +33,7 @@ filesdir="${serverdir}/serverfiles"
 		mkdir -pv ${serverdir}/log/console
 		rm -rfv ${serverdir}/log/script/*
 		rm -rfv ${serverdir}/log/console/*
-		rm -fv ${serverdir}/log/server
+		rm -rfv ${serverdir}/log/server
 	fi
 
 ## Delete any existing Glibc fix files
@@ -148,7 +148,7 @@ echo "================================="
 echo "Linux Game Server Manager"
 echo "Server Content Repository Updater"
 echo "by Daniel Gibbs"
-echo "http:/gameservermanagers.com"
+echo "http://gameservermanagers.com"
 echo "For Development Only"
 echo "================================="
 
@@ -159,14 +159,14 @@ if [ ! -d ${repodir} ]; then
 fi
 
 # Loop though list of servers
-INPUT=gameserver-repo-lgsm-list.csv
+INPUT=csv/gameserver-repo-lgsm-list.csv
 OLDIFS=$IFS
 IFS=,
-i=1
-[ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
+counter=1
+[ ! -f ${INPUT} ] && { echo "${INPUT} file not found"; exit 99; }
 while read gamename appid servername login
 do
-	test $i -eq 1 && ((i=i+1)) && continue
+	test ${counter} -eq 1 && ((counter=counter+1)) && continue
 	echo ""
 	echo "Updating ${servername}"
 	echo "================================="
