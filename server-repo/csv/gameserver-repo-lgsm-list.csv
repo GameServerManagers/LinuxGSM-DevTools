@@ -11,6 +11,7 @@ Counter Strike: Global Offensive,740,csgoserver,anonymous
 Counter Strike: Source,232330,cssserver,anonymous
 Day of Defeat,90 +app_set_config 90 mod dod,dodserver,anonymous
 Day of Defeat: Source,232290,dodsserver,anonymous
+Deathmatch Classic,90 +app_set_config 90 mod dmc,dmcserver,anonymous
 Don't Starve Together,343050,dstserver,anonymous
 Double Action: Boogaloo,317800,dabserver,anonymous
 Fistful of Frags,295230,fofserver,anonymous
@@ -18,7 +19,6 @@ Garys's Mod,4020,gmodserver,anonymous
 Half Life: Deathmatch,90,hldmserver,anonymous
 Half-Life Deathmatch: Source,255470,hldmsserver,anonymous
 Half Life 2: Deathmatch,232370,hl2dmserver,anonymous
-Deathmatch Classic,90 +app_set_config 90 mod dmc,dmcserver,anonymous
 Opposing Force,90 +app_set_config 90 mod gearbox,opforserver,anonymous
 Insurgency,237410,insserver,anonymous
 Just Cause 2,261140,jc2server,anonymous
