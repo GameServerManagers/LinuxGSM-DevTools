@@ -4,7 +4,6 @@ ARK: Survival Evolved,376030,arkserver,anonymous
 ARMA 3,233780,arma3server,user
 Black Mesa: Deathmatch,346680,bmdmserver,anonymous
 Blade Symphony (Game Purchase),228780,bsserver,user
-Chivalry: Medieval Warfare,220070,cmwserver,anonymous
 Counter Strike,90,csserver,anonymous
 Counter Strike: Condition Zero,90 +app_set_config 90 mod czero,csczserver,anonymous
 Counter Strike: Global Offensive,740,csgoserver,anonymous
@@ -19,6 +18,7 @@ Garys's Mod,4020,gmodserver,anonymous
 Half Life: Deathmatch,90,hldmserver,anonymous
 Half-Life Deathmatch: Source,255470,hldmsserver,anonymous
 Half Life 2: Deathmatch,232370,hl2dmserver,anonymous
+Hurtworld,233780,hwserver,user
 Opposing Force,90 +app_set_config 90 mod gearbox,opforserver,anonymous
 Insurgency,237410,insserver,anonymous
 Just Cause 2,261140,jc2server,anonymous
