@@ -34,6 +34,7 @@ filesdir="${serverdir}/serverfiles"
 		rm -rfv ${serverdir}/log/script/*
 		rm -rfv ${serverdir}/log/console/*
 		rm -rfv ${serverdir}/log/server
+		rm -rfv ${serverdir}/log
 	fi
 
 ## Delete any existing Glibc fix files
